@@ -1,0 +1,38 @@
+.timeline .content-itens{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+}
+
+.timeline .content-itens .itens{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.timeline .content-itens .itens-left{
+    align-items: end;
+    width: 50%;
+}
+
+.timeline .content-itens .itens-right{
+    align-items: start;
+    width: calc(50% + 1px);
+    left: calc(50% + -2.1px);
+}
+
+.timeline .content-itens .itens .iten{
+    width: max-content;
+}
+
+.timeline .content-itens .itens .iten-left{
+    padding-right: 20px;
+    border-right: 3px solid white;
+    margin-bottom: 37px;
+}
+
+.timeline .content-itens .itens .iten-right{
+    padding-left: 20px;
+    border-left: 3px solid white;
+    margin-top: 37px;
+}
