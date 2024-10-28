@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="/pages/teladelogin/login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Usuário" required>
+                  <input type="password" id="password" placeholder="Senha" required>
+            <a href="/pages/presentation/presentation.html" class="login-button" onclick="validateLogin()">Entrar</a>
+            <p class="error-message" id="error-message" style="display: none;">preencha todos os campos para continuar.</p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

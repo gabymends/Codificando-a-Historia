@@ -1,0 +1,19 @@
+body{
+    display:flex;
+    flex-direction: column;
+    background-color:#4879A1;
+}
+#title{
+    text-align: center;
+    margin-top:200px;
+justify-content: center;
+font-size: 30px;
+color:white
+}
+#subtitle{
+    text-align: center;
+    justify-content: center;
+margin-bottom: 200px;
+font-size: 20px;
+color:white
+}
