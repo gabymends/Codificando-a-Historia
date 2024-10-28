@@ -1,0 +1,26 @@
+body{
+    background-color: #4879A1;
+    display:block;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+}
+.title{
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    justify-content: center;
+    text-align: center;
+}
+.data{
+    justify-content: center;
+    text-align: center;
+}
+.video{
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+.content{
+    font-size: 20px;
+    align-items: center;
+}
