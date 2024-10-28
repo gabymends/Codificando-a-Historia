@@ -7,7 +7,9 @@ function validateLogin() {
         errorMessage.style.display = "block";
     } else {
         errorMessage.style.display = "none";
-        window.location.href = "outratela.html";
+        document.getElementById("loginForm").submit();
     }
 }
+
+
 

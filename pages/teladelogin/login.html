@@ -10,15 +10,16 @@
 
     <div class="login-container">
         <h2>Login</h2>
-        <form id="loginForm">
+        <form id="loginForm" action="/pages/presentation/presentation.html">
             <input type="text" id="username" placeholder="Usuário" required>
-                  <input type="password" id="password" placeholder="Senha" required>
-            <a href="/pages/presentation/presentation.html" class="login-button" onclick="validateLogin()">Entrar</a>
-            <p class="error-message" id="error-message" style="display: none;">preencha todos os campos para continuar.</p>
+            <input type="password" id="password" placeholder="Senha" required>
+            <a href="#" class="login-button" onclick="validateLogin()">Entrar</a>
+            <p class="error-message" id="error-message" style="display: none;">Por favor, preencha todos os campos.</p>
         </form>
     </div>
 
     <script src="script.js"></script>
+
 </body>
 </html>
 
