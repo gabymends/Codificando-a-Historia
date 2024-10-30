@@ -11,10 +11,12 @@ body{
     border-bottom: 3px solid black;
     justify-content: center;
     text-align: center;
+    color: aliceblue;
 }
 .data{
     justify-content: center;
     text-align: center;
+    color: aliceblue;
 }
 .video{
     position: absolute;
@@ -24,4 +26,5 @@ body{
 .content{
     font-size: 20px;
     align-items: center ;
+    color:aliceblue;
 }

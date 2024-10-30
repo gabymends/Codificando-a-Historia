@@ -2,6 +2,7 @@ body{
     background-color: #4879A1;
     display:block;
     flex-direction: column;
+    color: aliceblue;
     margin: 0;
     height: 100vh;
 }
