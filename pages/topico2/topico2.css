@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     margin: 0;
     height: 100vh;
+    color: aliceblue;
 }
 .title{
     text-transform: uppercase;
